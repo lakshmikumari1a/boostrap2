@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+           margin: 0;
+           padding: 0;
+           line-height: 1.5;
+           font-size: 16px;
+           background-position: fixed;
+        }
+
+        #parent{
+            display: flex;
+            flex-direction: column;
+            width: 300px;
+            background-color:red;
+            height: 1000px;
+            overflow: scroll;
+        
+
+            
+        }
+        h1{
+            margin-left: 100px;
+        }
+        a{
+            text-decoration: none;
+    
+           
+        }
+        #b{
+            display: block;
+            position: absolute;
+            left: 270px;
+            right: 0;
+            z-index: 0;
+          display: flex;
+            overflow: scroll;
+            background-color: white;
+            width:1100px;
+            height: 2000px;
+            top: 0;
+            
+
+        }
+        h2{
+            font-size: xx-large;
+            font-weight: 900;
+            margin-left: 60px;
+        }
+        #c{
+            position: absolute;
+            top: 0;
+            width: 420px;
+            height: 400px;
+            margin-left: 320px;
+            margin-top: 130px;
+        }
+        #d{
+            position: absolute;
+            top: 0;
+            width: 420px;
+            height: 400px;
+            margin-left: 770px;
+            margin-top: 130px;
+            display: grid;
+           
+            grid-template-columns: auto;
+        }
+    #image{
+        margin-left: 50px;
+    }
+      
+    #e{
+        position: absolute;
+        width: 420px;
+        height: 300px;
+        margin-left: 320px;
+        top: 0;
+        margin-top: 550px;
+    }
+    #f{
+        position: absolute;
+        width: 420px;
+        height: 300px;
+        margin-left: 770px;
+        top: 0;
+        margin-top: 550px; 
+    }
+    #g{
+        position: absolute;
+        width: 420px;
+        height: 300px;
+        margin-left: 320px;
+        top: 0;
+        margin-top: 870px; 
+    }
+    #h{
+        position: absolute;
+        width: 420px;
+        height: 300px;
+        margin-left: 770px;
+        top: 0;
+        margin-top: 870px; 
+    }
+    @media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 100%;
+  }
+}
+    </style>
+</head>
+<body>
+    <div id="parent">
+           <h2><a href="">Home</a> <br>
+           
+            <a href="">Showcase</a> <br>
+        
+            <a href="">Designer</a> <br>
+        
+            <a href="">Service</a> <br>
+        
+            <a href="">Packages</a></h2> 
+</div>
+<div id="b">
+    <h1>INterior Design</h1>
+    <b style="position: absolute;top: 70px; font-size: xx-large; color: red; margin-left:100px ;">Show case</b>
+   
+</div>
+<div id="image">
+    <img  id="c" src="https://www.w3schools.com/w3images/kitchenconcrete.jpg">
+    <img id="d" src="https://www.w3schools.com/w3images/atrium.jpg">
+    <img  id="e" src="https://www.w3schools.com/w3images/livingroom.jpg">
+    <img  id="f" src="https://www.w3schools.com/w3images/atrium.jpg">
+    <img  id="g" src="https://www.w3schools.com/w3images/diningroom.jpg">
+    <img id="h" src="https://www.w3schools.com/w3images/livingroom2.jpg">
+</div>
+
+</body>
+</html>
